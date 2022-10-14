@@ -1,0 +1,22 @@
+body{
+    
+    margin: 100px;
+    border-color: black;
+    border-style: solid;
+    background-color: aquamarine;
+    border: none;
+    
+}
+
+
+.chat-card{
+    height: 200px;
+    width: 400px;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
