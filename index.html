@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,23 @@
     <title>Chatbot</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <center><div class="chat-card">
 
-    <div class="question"><h2>Ask your question?</h2>
-    <input 
-    type="text"
-     id="search-bar"
-    onkeydown="if(event.keyCode == 13){ talk()}"
-     placeholder="Type your question"/>
+<body>
+
+    <div class="chat-card">
+        <div class="question">
+            <h2>Ask your question?</h2>
+            <input type="text" id="search-bar" onkeydown="if(event.keyCode == 13){ talk()}"
+                placeholder="Type your question" />
+        </div>
+        <br>
+        <p id="answer">Here is your answer</p>
+        <button onclick="getJoke()">Tell me a joke</button>
+
     </div>
-    <br>
-     <p id="answer">Here is your answer</p>
-</div></center>
+
 </body>
 
 <script src="script.js"></script>
+
 </html>
