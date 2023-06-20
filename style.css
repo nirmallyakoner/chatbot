@@ -5,7 +5,7 @@ body{
     border-style: solid;
     background-color: aquamarine;
     border: none;
-    
+   
 }
 
 
@@ -16,6 +16,7 @@ body{
     border-width: 10px;
     box-sizing: border-box;
     text-align: center;
+   
 
 
 }
